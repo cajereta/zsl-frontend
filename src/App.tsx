@@ -1,13 +1,14 @@
 import "./App.css";
-import { ModeToggle } from "./components/mode-toggle";
+import { Home } from "./components/screens/Home";
 import { ThemeProvider } from "./components/theme-provider";
+import { Toaster } from "./components/ui/sonner";
 
 function App() {
   return (
     <>
       <ThemeProvider defaultTheme="system" storageKey="theme">
-        <ModeToggle />
-        <div>Vite + React</div>
+        <Home />
+        <Toaster />
       </ThemeProvider>
     </>
   );
