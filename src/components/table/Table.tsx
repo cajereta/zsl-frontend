@@ -9,7 +9,7 @@ export const Table = () => {
 
   return (
     <>
-      <div className="max-h-56 overflow-auto w-full">
+      <div className="max-h-[60vh] overflow-auto w-full">
         {isDesktop ? (
           <UrlTableDesktop tableData={storage} />
         ) : (

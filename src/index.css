@@ -52,9 +52,9 @@
 @layer base {
   * {
     @apply border-border;
-    @apply transition-all duration-500;
   }
   body {
     @apply bg-background text-foreground;
+    @apply transition-backgroundColor duration-300 ease-in-out;
   }
 }

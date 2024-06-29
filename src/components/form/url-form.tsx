@@ -68,10 +68,7 @@ export function UrlForm() {
                 Shorten a long URL
               </FormLabel>
               <FormControl>
-                <Input
-                  placeholder="Enter a very long here like the pinga of Ever"
-                  {...field}
-                />
+                <Input placeholder="Enter a very long link here" {...field} />
               </FormControl>
 
               <FormMessage className="font-bold" />
@@ -79,7 +76,7 @@ export function UrlForm() {
           )}
         />
 
-        <Button type="submit" variant="outline">
+        <Button aria-label="Submit" type="submit" variant="outline" size="icon">
           <SendHorizontal className="h-5 w-5" />
         </Button>
       </form>

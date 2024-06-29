@@ -17,6 +17,9 @@ module.exports = {
       },
     },
     extend: {
+      transitionProperty: {
+        backgroundColor: "background-color",
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
